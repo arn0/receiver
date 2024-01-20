@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/CMakeFiles/bootloader
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/CMakeFiles/bootloader.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/CMakeFiles/bootloader-complete.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/arno/Documents/Boot/Raspberry/Code/receiver/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

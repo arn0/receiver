@@ -1,0 +1,46 @@
+-- Existing sdkconfig '/Users/arno/Documents/Boot/Raspberry/Code/receiver/sdkconfig' renamed to '/Users/arno/Documents/Boot/Raspberry/Code/receiver/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.32.0 (Apple Git-132)") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/arno/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/arno/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/arno/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/arno/Documents/Boot/Raspberry/Code/receiver/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/arno/.espressif/python_env/idf5.1_py3.8_env/bin/python (found version "3.8.9") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "spi_slave_receiver" version: 1
+-- Adding linker script /Users/arno/Documents/Boot/Raspberry/Code/receiver/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/arno/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/arno/esp/esp-idf/components/app_trace /Users/arno/esp/esp-idf/components/app_update /Users/arno/esp/esp-idf/components/bootloader /Users/arno/esp/esp-idf/components/bootloader_support /Users/arno/esp/esp-idf/components/bt /Users/arno/esp/esp-idf/components/cmock /Users/arno/esp/esp-idf/components/console /Users/arno/esp/esp-idf/components/cxx /Users/arno/esp/esp-idf/components/driver /Users/arno/esp/esp-idf/components/efuse /Users/arno/esp/esp-idf/components/esp-tls /Users/arno/esp/esp-idf/components/esp_adc /Users/arno/esp/esp-idf/components/esp_app_format /Users/arno/esp/esp-idf/components/esp_coex /Users/arno/esp/esp-idf/components/esp_common /Users/arno/esp/esp-idf/components/esp_eth /Users/arno/esp/esp-idf/components/esp_event /Users/arno/esp/esp-idf/components/esp_gdbstub /Users/arno/esp/esp-idf/components/esp_hid /Users/arno/esp/esp-idf/components/esp_http_client /Users/arno/esp/esp-idf/components/esp_http_server /Users/arno/esp/esp-idf/components/esp_https_ota /Users/arno/esp/esp-idf/components/esp_https_server /Users/arno/esp/esp-idf/components/esp_hw_support /Users/arno/esp/esp-idf/components/esp_lcd /Users/arno/esp/esp-idf/components/esp_local_ctrl /Users/arno/esp/esp-idf/components/esp_mm /Users/arno/esp/esp-idf/components/esp_netif /Users/arno/esp/esp-idf/components/esp_netif_stack /Users/arno/esp/esp-idf/components/esp_partition /Users/arno/esp/esp-idf/components/esp_phy /Users/arno/esp/esp-idf/components/esp_pm /Users/arno/esp/esp-idf/components/esp_psram /Users/arno/esp/esp-idf/components/esp_ringbuf /Users/arno/esp/esp-idf/components/esp_rom /Users/arno/esp/esp-idf/components/esp_system /Users/arno/esp/esp-idf/components/esp_timer /Users/arno/esp/esp-idf/components/esp_wifi /Users/arno/esp/esp-idf/components/espcoredump /Users/arno/esp/esp-idf/components/esptool_py /Users/arno/esp/esp-idf/components/fatfs /Users/arno/esp/esp-idf/components/freertos /Users/arno/esp/esp-idf/components/hal /Users/arno/esp/esp-idf/components/heap /Users/arno/esp/esp-idf/components/http_parser /Users/arno/esp/esp-idf/components/idf_test /Users/arno/esp/esp-idf/components/ieee802154 /Users/arno/esp/esp-idf/components/json /Users/arno/esp/esp-idf/components/log /Users/arno/esp/esp-idf/components/lwip /Users/arno/Documents/Boot/Raspberry/Code/receiver/main /Users/arno/esp/esp-idf/components/mbedtls /Users/arno/esp/esp-idf/components/mqtt /Users/arno/esp/esp-idf/components/newlib /Users/arno/esp/esp-idf/components/nvs_flash /Users/arno/esp/esp-idf/components/openthread /Users/arno/esp/esp-idf/components/partition_table /Users/arno/esp/esp-idf/components/perfmon /Users/arno/esp/esp-idf/components/protobuf-c /Users/arno/esp/esp-idf/components/protocomm /Users/arno/esp/esp-idf/components/pthread /Users/arno/esp/esp-idf/components/sdmmc /Users/arno/esp/esp-idf/components/soc /Users/arno/esp/esp-idf/components/spi_flash /Users/arno/esp/esp-idf/components/spiffs /Users/arno/esp/esp-idf/components/tcp_transport /Users/arno/esp/esp-idf/components/ulp /Users/arno/esp/esp-idf/components/unity /Users/arno/esp/esp-idf/components/usb /Users/arno/esp/esp-idf/components/vfs /Users/arno/esp/esp-idf/components/wear_levelling /Users/arno/esp/esp-idf/components/wifi_provisioning /Users/arno/esp/esp-idf/components/wpa_supplicant /Users/arno/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/arno/Documents/Boot/Raspberry/Code/receiver/build
